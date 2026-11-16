@@ -1,0 +1,9 @@
+{
+  "name": "alfaaz-tests",
+  "private": true,
+  "description": "Loads the built Chromium extension into real Chrome and checks it. Run python3 build.py first.",
+  "scripts": {
+    "test": "node engine.js && node library.js && node toggles.js && node ui.js"
+  },
+  "devDependencies": { "puppeteer-core": "^23.0.0" }
+}
