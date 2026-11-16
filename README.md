@@ -83,3 +83,7 @@ Icons from [Lucide](https://lucide.dev), ISC licence. Fonts in the library are d
 python3 build.py
 cd tests && npm install && CHROME=/path/to/chrome npm test
 ```
+
+## Licence
+
+GNU General Public License v2.0, see [LICENSE](LICENSE).
